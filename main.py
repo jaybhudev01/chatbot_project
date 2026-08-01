@@ -199,6 +199,14 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 async def serve_index():
     return FileResponse("static/index.html")
 
+@app.get("/style.css")
+async def serve_style():
+    return FileResponse("static/style.css")
+
+@app.get("/script.js")
+async def serve_script():
+    return FileResponse("static/script.js")
+
 if __name__ == '__main__':
     import sys
     

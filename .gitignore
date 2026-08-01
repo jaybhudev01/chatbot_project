@@ -6,3 +6,5 @@
 !main.py
 !requirements.txt
 !.gitignore
+!static/
+!static/**

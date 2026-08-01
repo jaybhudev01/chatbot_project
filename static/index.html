@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skisha - EasyLearn Academy Virtual Assistant</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- Sidebar Panel -->
+        <aside class="sidebar" id="sidebar">
+            <div class="logo-section">
+                <div class="logo-icon">EL</div>
+                <div class="logo-text">
+                    <h1>EasyLearn</h1>
+                    <p>IT Academy</p>
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>Our Core Focus</h3>
+                <div class="info-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                    <span>100% Practical & Job-Oriented Industry Project Training</span>
+                </div>
+                <div class="info-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    <span>Direct IT company references & full placement support</span>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h3>Contact & Info</h3>
+                <div class="info-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <span>Eva Surbhi Mall, 105, Waghawadi Road, Opp. Aksharwadi Temple, Bhavnagar</span>
+                </div>
+                <div class="info-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    <span><a href="tel:+919662512857">+91 96625 12857</a></span>
+                </div>
+                <div class="info-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <span><a href="mailto:theeasylearn@gmail.com">theeasylearn@gmail.com</a></span>
+                </div>
+                <div class="info-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9h18"></path></svg>
+                    <span><a href="https://theeasylearnacademy.com/" target="_blank">theeasylearnacademy.com</a></span>
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                &copy; 2026 EasyLearn Academy
+            </div>
+        </aside>
+        
+        <!-- Main Chat Window -->
+        <main class="chat-window">
+            
+            <!-- Chat Header -->
+            <header class="chat-header">
+                <div class="bot-profile">
+                    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle Sidebar">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                    <div class="avatar">
+                        S
+                        <div class="status-dot"></div>
+                    </div>
+                    <div class="bot-info">
+                        <h2>Skisha</h2>
+                        <p>Virtual Assistant</p>
+                    </div>
+                </div>
+                <button class="btn-end-chat" id="btnEndChat" style="display: none;">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                    End Session
+                </button>
+            </header>
+            
+            <!-- Messages List -->
+            <section class="message-area" id="messageArea">
+                <div class="message bot">
+                    <div class="message-content">
+                        Hello! 👋 I am Skisha, your virtual advisor from EasyLearn Academy. Please provide your details using the entry window to start discussing courses, fees, timings, and placements.
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Quick Suggestions -->
+            <div class="suggestions-container" id="suggestionsContainer" style="display: none;">
+                <button class="suggestion-chip">Available Courses</button>
+                <button class="suggestion-chip">MERN Stack Details</button>
+                <button class="suggestion-chip">Python details</button>
+                <button class="suggestion-chip">What is the course fee?</button>
+                <button class="suggestion-chip">Batch Timings</button>
+                <button class="suggestion-chip">Do you offer free demos?</button>
+                <button class="suggestion-chip">Placement support</button>
+            </div>
+            
+            <!-- Chat Input controls -->
+            <footer class="input-panel" id="inputPanel" style="opacity: 0.6; pointer-events: none;">
+                <div class="input-wrapper">
+                    <input type="text" class="chat-input" id="chatInput" placeholder="Enter your query here..." disabled>
+                </div>
+                <button class="btn-send" id="btnSend" disabled>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                </button>
+            </footer>
+            
+        </main>
+        
+        <!-- Onboarding Screen / User Details Modal -->
+        <div class="modal-overlay" id="onboardingModal">
+            <div class="welcome-card">
+                <div class="welcome-header">
+                    <div class="logo-icon" style="margin: 0 auto 1rem;">EL</div>
+                    <h2>Welcome to EasyLearn</h2>
+                    <p>Provide details to start consulting with our AI Assistant.</p>
+                </div>
+                
+                <form id="onboardingForm" onsubmit="event.preventDefault(); submitOnboarding();">
+                    <div class="form-group">
+                        <label for="userName">Name</label>
+                        <input type="text" id="userName" class="form-input" placeholder="e.g. John Doe" required>
+                        <div class="form-error" id="nameError">Please enter a valid name.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="userEmail">Email ID</label>
+                        <input type="email" id="userEmail" class="form-input" placeholder="e.g. name@domain.com" required>
+                        <div class="form-error" id="emailError">Invalid email format.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="userMobile">Mobile Number</label>
+                        <input type="text" id="userMobile" class="form-input" placeholder="e.g. +919662512857" required>
+                        <div class="form-error" id="mobileError">Mobile number must be 10-12 digits.</div>
+                    </div>
+                    <button type="submit" class="btn-start-chat" id="btnSubmitOnboarding">Start Consultation</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
