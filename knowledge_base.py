@@ -384,3 +384,16 @@ greetings = [
     {"message": "namaskar", "reply": "Namaste! 🙏 How can I help you today?"},
     
 ]
+
+course_details = {
+    "python": "Python Programming: Learn Python from scratch to advanced, covering core programming concepts, OOP, file handling, and database integration. Perfect for beginners and software developers.",
+    "mern": "MERN Stack Development: Master full-stack web development using MongoDB, Express.js, React.js, and Node.js. Build and deploy responsive, modern web applications with live project experience.",
+    "php": "PHP Web Development: Learn backend development with PHP and MySQL, including core PHP, MVC architecture, and working with modern frameworks like Laravel.",
+    "ai/ml": "Artificial Intelligence & Machine Learning: Discover the world of AI/ML. Learn data preprocessing, regression, classification, clustering, neural networks, and work on real-world predictive models using Python.",
+    "data science": "Data Science: Master data analysis, visualization, and statistical modeling. Learn tools like Pandas, NumPy, Matplotlib, and SQL to extract meaningful insights from complex datasets.",
+    "cyber security": "Cyber Security & Ethical Hacking: Learn network security, cryptography, vulnerability assessment, penetration testing, and ethical hacking techniques to protect digital systems from threats.",
+    "ui/ux": "UI/UX Design: Learn user-centric design principles, wireframing, prototyping, and user testing. Master popular design tools like Figma and Adobe XD to create stunning web and mobile interfaces.",
+    "web design": "Web Design: Build modern, responsive websites using HTML5, CSS3, Bootstrap, JavaScript, and jQuery. Focus on clean layouts, cross-browser compatibility, and user interactions.",
+    "tally": "Tally Prime with GST: Learn computerized accounting, inventory management, taxation, GST return filing, and financial reporting. Designed for commerce students and accounting professionals.",
+    "ccc": "Course on Computer Concepts (CCC): Get certified in essential computer skills, including operating systems, word processing (Word), spreadsheets (Excel), presentations (PowerPoint), and internet/email basics."
+}

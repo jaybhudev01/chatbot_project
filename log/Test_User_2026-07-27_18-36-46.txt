@@ -1,0 +1,12 @@
+Name: Test User
+Email: test@example.com
+Mobile: 1234567890
+----------------------------------------
+You : good morning
+Skisha: Good morning! ☀️ How can I help you today?
+You : location
+Skisha: We are located at Eva Surbhi Mall, 105, Waghawadi Road, opposite Aksharwadi Temple, Bhavnagar, Gujarat - 364002.
+You : python details
+Skisha: Python Programming: Learn Python from scratch to advanced, covering core programming concepts, OOP, file handling, and database integration. Perfect for beginners and software developers.
+----------------------------------------
+Conversation duration: 0 minutes, 9 seconds
